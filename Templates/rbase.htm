@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vegan Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/restaurant.css">
+</head>
+<body>
+   <div class="main">
+   <div class="icon">
+       <h2 class="logo">Vegan Restaurant</h2>
+   </div>
+   <div class="menu">
+      <ul>    
+         <br>
+        
+          <li class="{% if request.path == '/' %} active {% endif %}"><a href="/">Home</a></li>
+          <li class="{% if request.path == '/gallery/' %} active {% endif %}"><a href="/gallery">Gallery</a></li>
+          <li class="{% if request.path == '/menu/' %} active {% endif %}"><a href="/menu">Menu</a></li>
+          <li class="{% if request.path == '/aboutus/' %} active {% endif %}"><a href="/aboutus">About us</a></li>
+          <li class="{% if request.path == '/contactus/' %} active {% endif %}"><a href="/contactus" >Contact Us</a></li>
+      </ul>
+   </div>
+   {% block content%}
+   
+   {% endblock%}
+</body>
+</html>

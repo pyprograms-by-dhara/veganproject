@@ -1,0 +1,238 @@
+
+*{
+    margin :0px;
+    padding: 0px;
+    
+}/*css for home page*/
+.main{
+    width :100%;
+    background:url('/static/r_img/main121.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.menu{
+    width:650px;
+    float :left;
+    height:70px;
+}
+.logo{
+    color :#ff7200;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+   color:aqua;
+   font-size: 18px;
+}
+/*css for menu page*/
+.menulist{
+    height:90%;
+    
+}
+.box{
+    height:90px;
+    width:400px;
+    border:2px solid #FFFF99;
+    float:left;
+    display: flex;
+    padding:20px;
+    margin:8px;
+    border-radius: 120px; 
+    background-color: #996633;
+    box-shadow: inset 0 0 15px;
+}
+.box img{
+    height:100px;
+    width:120px;
+    border-radius:50%; 
+    outline-style:ridge;    
+}
+.foodnm {
+    height:40px;
+    width:200px;
+    background-color:transparent;
+    text-align:center;
+    padding: 5px;
+    border-radius:140px;
+    margin-top: 10px;
+    text-decoration: none;    
+}
+.foodnm a{
+    text-decoration: none;
+    color: white;
+    text-align:center;
+}
+/*saladmenu.html*/
+.saladlist{
+    height: 80%;
+    width:700px;
+    border:4px ridge #993366;
+    margin:10px;
+    padding: 20px;
+    margin-left: 40px;
+   background-image:url('/static/r_img/foodlist.jfif');
+    background-size: cover;
+    font-family:  Helvetica;
+    color: rgb(99, 27, 27);
+    font-size:22px;
+    display: inline-block;
+}
+.heading{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+}
+.list{
+    margin-top: 15px;
+    display: inline-block;
+    float: left;
+}
+.photo
+{
+    margin-top:65px;
+    border:2px solid red;
+    border-radius: 50%;
+    width:40%;
+    height:180px;
+    float: left;
+    display: inline-block;
+    margin-left:20px;
+}
+
+.photo img{
+    height:180px;
+    width:100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+.list h5{
+    background-color: white;
+    display: inline-block;
+    border:2px solid blue;
+    border-radius: 40px;
+    padding:5px;
+    margin-top:3px;
+    color: #993366;
+}
+/*home page button*/
+   .btn {
+    width:140px;
+    height:40px;
+    background: #CC99FF;
+    border: none;
+    text-decoration: none;
+    margin-top:20px;;
+    margin-left: 110px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    color: black;  
+}
+.btn:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46,229,157,0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+/* about us*/
+.aboutus{
+    background-image: url('/static/r_img/img_rr.jfif');
+    height:80%;
+    width:900px;
+    background-size: cover;
+    border: 3px solid white;
+    margin-left: 80px;
+}
+.title{
+    background-color:#444444;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+}
+.content{
+    padding: 10px;
+    margin: 120px;
+    color:#99FFFF;
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:midnightblue;
+    border: 2px double purple;
+}
+/*booking page*/
+.mainbox{
+    height:70%;
+    width:600px;
+    border:2px double palevioletred;
+    margin-left: 120px;
+    margin-top: 60px;
+    background-color:black;
+}
+.book{
+    margin-top:20px;
+    margin-left: 110px;
+    text-align: center;
+    font-size:18px;
+    
+}
+.btn1{
+    width:200px;
+    height:40px;
+    background-color:#ff7200;
+    border: none;
+    text-decoration: none;
+    margin-top:20px;;
+    margin-left: 80px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:maroon;
+    font-family: Cambria;
+    border: 2px solid white;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: maroon;
+    color: white;
+    
+}
+.active{
+    background-color: #993366;
+    color:white;
+    padding: 10px;
+    font-size: 18px;
+}
